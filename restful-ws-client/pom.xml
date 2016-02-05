@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>com.cyc</groupId>
+    <artifactId>cyc-common-lib-parent</artifactId>
+    <version>1.0.0-rc5</version>
+  </parent>
+
+  <groupId>com.cyc.ws.client</groupId>
+  <artifactId>cyc-restful-ws-client</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <!-- ====  Metadata & contact info  ========================================================== -->
+
+  <name>RESTful WS Client</name>
+  <description>
+    Java library designed to simplify communicating with a variety of RESTful web services.
+  </description>
+  <url>http://dev.cyc.com/</url>
+  
+  <scm>
+    <connection>scm:git:git@github.com:cycorp/common-libraries.git</connection>
+    <developerConnection>scm:git:git@github.com:cycorp/common-libraries.git</developerConnection>
+    <url>https://github.com/cycorp/common-libraries</url>
+  </scm>
+  
+  <issueManagement>
+    <url>http://dev.cyc.com/issues/</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+  
+  <inceptionYear>2015</inceptionYear>
+  
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  
+  <organization>
+    <name>Cycorp, Inc.</name>
+    <url>http://www.cyc.com</url>
+  </organization>
+  
+  <developers>
+    <developer>
+      <name>Cycorp API Team</name>
+      <email>dev-team@cyc.com</email>
+      <organization>Cycorp, Inc.</organization>
+      <organizationUrl>http://www.cyc.com</organizationUrl>
+    </developer>
+  </developers>
+  
+  <!-- ====  Configuration  ==================================================================== -->
+  
+</project>
